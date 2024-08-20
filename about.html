@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="bg-green-100 p-2 flex justify-between  uppercase h-15 shadow-lg sticky top-0 z-10 ";
+>
+    <h2 class="text-2xl ">greenden</h2>
+    <svg id="threedot" xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke-width="1.5"  
+    stroke="currentColor" class="size-6 md:hidden">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5 " />
+      </svg>
+      
+    <div class=" uppercase gap-6 text-black-100 hidden md:flex"  >
+        <a class="hover:underline " href="index.html">home</a>
+        <a class="hover:underline" href="about.html">products</a>
+        <a class="hover:underline" href="contact.html">contact</a>
+
+    </div>
+
+</div>
+<header id="navs-bar" class="bg-green-100 width fixed z-20  top-0" style="width: 50%;height: 100vh; right: -50%;" >
+    <div  id="xnavbar" class="text-right p-5">
+      <p class="inline cursor-pointer">x</p>
+    </div>
+  <div class=" uppercase gap-10 text-black-100 items-center flex flex-col "  >
+    <a class="hover:underline "href="index.html">home</a>
+    <a class="hover:underline" href="about.html">products</a>
+    <a class="hover:underline" href="contact.html">contact</a>
+
+</div>
+</header>
+<div class="mt-8 text-center" >
+<h1 class="font-bold uppercase text-xl">our products</h1>
+<input  id="searchboxx"  class="border-2 mt-2 p-3 border-black  h-12" style="width: 70%" type="text">
+</div>
+<div  id="product-container"  class="mt-10 grid grid-cols-2  grid-rows-4 sm:grid-cols-4 sm:grid-rows-2  text-center  ">
+<div >
+    <img class="inline" src="./images1/bestseller-1.jpg" alt="">
+    <h5>rose pot</h5>
+    <p>$20</p>
+</div>
+<div>
+    <img class="inline"  src="./images1/bestseller-2.jpg" alt="">
+    <h5>lily pot</h5>
+    <p>$30</p>
+</div>
+<div>
+    <img  class="inline" src="./images1/bestseller-3.jpg" alt="">
+    <h5>rose pot</h5>
+    <p>$40</p>
+</div>
+<div>
+    <img class="inline"  src="./images1/bestseller-4.jpg" alt="">
+    <h5>jasmine pot</h5>
+    <p>$50</p>
+</div>
+<div class="mt-5">
+    <img class="inline" src="./images1/bestseller-4.jpg" alt="">
+    <h5>lales pot</h5>
+    <p>$20</p>
+</div>
+<div class="mt-5">
+    <img class="inline"  src="./images1/bestseller-3.jpg" alt="">
+    <h5>rose pot</h5>
+    <p>$30</p>
+</div>
+<div class="mt-5">
+    <img  class="inline" src="./images1/bestseller-2.jpg" alt="">
+    <h5>sweet pot</h5>
+    <p>$40</p>
+</div>
+<div class="mt-5">
+    <img class="inline"  src="./images1/bestseller-1.jpg" alt="">
+    <h5>sandal pot</h5>
+    <p>$50</p>
+</div>
+</div>
+<footer class="grid gap-3 mt-5 h-70 p-10 bg-green-200">
+      <h2 class="uppercase font-bold text-xl">greenden</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur porro adipisci nesciunt id temporibus minima ipsam repudiandae voluptates sequi?</p>
+      <p class="font-bold">@2021 greenden.com</p>
+    </footer>
+
+    <script src="about.js"></script>
+</body>
+</html>
